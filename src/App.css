@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color: blueviolet;
+}
+
+.todoform{
+  background-color: aqua;
+  padding: 1.4rem;
+  width: 45vw;
+  margin-top: 0.5rem;
+  /* margin:  auto ; */
+  /* position: absolute; */
+  /* top: 30%; */
+  /* left: 28%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input{
+  /* height: 2rem;
+  padding
+   */
+  /* box-shadow: 0.4rem;
+   */
+  /* border-radius: 0.4rem; */
+  padding: 0.6rem;
+  border: none;
+  background-color: black;
+  color: white;
+  outline: white 0.1rem;
+  
+}
+
+.todo-btn{
+  background-color: blueviolet;
+  border: none;
+  /* border-radius: 0.4rem; */
+  padding: 0.6rem;
+}
+
+.todowrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
+}
+
+.todo_item{
+  padding: 1.2rem;
+  margin-top: 0.6rem; 
+  background-color: blue;
+  width: 25%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  /* position: absolute;
+  top: 45%;
+  left: 33%; */
+  border-radius: 1.2rem;
+}
+
+.todo_item_info{
+  text-align: center;
+  display: inline-block;
+}
+
+.icons{
+  display: inline-block;
+  width: 25%;
+  color: white;
+
+}
+
+#pen{
+  margin: 0rem 0.8rem;
+}
